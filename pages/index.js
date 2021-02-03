@@ -6,12 +6,20 @@ import Hero from "../components/Hero";
 import Skills from "../components/Skills";
 import About from "../components/About";
 import Education from "../components/Education";
+import Projects from "./../components/Projects";
+import Activities from "./../components/Activities";
 export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
+                <script
+                    type="text/javascript"
+                    src="https://platform.linkedin.com/badges/js/profile.js"
+                    async
+                    defer
+                ></script>
             </Head>
 
             <div
@@ -20,8 +28,11 @@ export default function Home() {
             >
                 <Header />
                 <Hero />
+                <img
+                    style={{ width: "100%", transform: "rotate(180deg)" }}
+                    src="/wave.svg"
+                />
             </div>
-            <img style={{ width: "100%" }} src="/heroBottom.svg" />
             <div
                 style={{
                     background: "url(/sideCircle.svg)",
@@ -51,13 +62,23 @@ export default function Home() {
             </div>
             <div
                 style={{
-             
-                   
-                    margin: "5% 15%",
+                    background: "url(/leftcircle.svg)",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "left center",
+                    backgroundSize: "5em",
                 }}
             >
-                <Education />
+                <div
+                    style={{
+                        margin: "5% 15%",
+                    }}
+                >
+                    <Education />
+                </div>
             </div>
+
+            <Projects />
+            <Activities />
             <Header />
         </div>
     );
