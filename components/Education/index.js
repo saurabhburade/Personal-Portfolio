@@ -4,7 +4,7 @@ import EducationCard from "./EducationCard";
 function index() {
     return (
         <>
-            <h4 className="text-center font-weight-bold">My Education</h4>
+            <h4 className="text-center font-weight-bold" style={{background:"url(/circle.svg)",backgroundRepeat:"no-repeat",backgroundSize:"contain",backgroundPosition:"center"}}>My Education</h4>
 
             <div className="w-100 d-flex justify-content-center">
                 <ul class="timeline">
