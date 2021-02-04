@@ -7,11 +7,13 @@ export default function index() {
     return (
         <div
             style={{
-                margin: "10% 5%",
+                margin: "1% 15%",
+                padding:"5% 0%"
             }}
+             id="projects"
         >
             <h4
-                className="text-center font-weight-bold mb-5"
+                className="text-center font-weight-bold mb-5 wow animate__animated animate__fadeInUp"
                 style={{
                     background: "url(/circle.svg)",
                     backgroundRepeat: "no-repeat",

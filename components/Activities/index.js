@@ -8,9 +8,10 @@ function index() {
             style={{
                 margin: "10% 15%",
             }}
+            id="activities"
         >
             <h4
-                className="text-center font-weight-bold mb-5"
+                className="text-center font-weight-bold mb-5 wow animate__animated animate__fadeInUp"
                 style={{
                     background: "url(/circle.svg)",
                     backgroundRepeat: "no-repeat",
@@ -27,11 +28,9 @@ function index() {
                     borderRadius: "10px",
                 }}
             >
-                {activitiesData?.map((element,idx)=>{
-                    return <ActivityCard key={idx} {...element}/>
+                {activitiesData?.map((element, idx) => {
+                    return <ActivityCard key={idx} {...element} />;
                 })}
-                
-              
             </div>
         </div>
     );

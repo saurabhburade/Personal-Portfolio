@@ -5,7 +5,7 @@ session,
 detail}) {
     return (
         <>
-            <div className="w-100 bg-light d-flex justify-content-between align-items-center  mt-3 pr-4 pl-4 pt-3 pb-3 rounded">
+            <div className="w-100 bg-light d-flex justify-content-between align-items-center  mt-3 pr-4 pl-4 pt-3 pb-3 rounded wow animate__animated animate__fadeInUp">
                 <div className=" d-flex justify-content-between align-items-center">
                     <img src="/checked.svg" width={40} alt="*" />
                     <div className="w-100 flex-grow-1 p-4 text-break">

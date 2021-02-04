@@ -18,7 +18,7 @@ export const projectsData = [
     {
         title: "COVID-19 India Dashboard",
         live: "https://covid-19-india-dash.herokuapp.com/dashboard",
-        code: "​https://github.com/saurabhburade/Covid-19 ",
+        code: "https://github.com/saurabhburade/Covid-19",
         imageUrl: "project2.png",
         technologies: ["ReactJS", "Redux", "CSS"],
     },

@@ -1,15 +1,25 @@
-import React from 'react'
+import React from "react";
 
 function index() {
     return (
-        <div className="d-flex align-items-center justify-content-between"   style={{
-                        
-                        margin: "10% 15%",
-                    }}>
-            <img src="/aboutMe.svg" alt="me" width={250} />
+        <div
+            className="d-flex align-items-center justify-content-between"
+            style={{
+                margin: "10% 15%",
+            }}
+            id="about"
+        >
+            <img
+                src="/aboutMe.svg"
+                alt="me"
+                width={250}
+                className="wow animate__animated animate__fadeInUp"
+            />
             <div className="p-5">
-                <h4 className="font-weight-bold">A bit about me ;)</h4>
-                <p>
+                <h4 className="font-weight-bold wow animate__animated animate__fadeInUp">
+                    A bit about me ;)
+                </h4>
+                <p className="wow animate__animated animate__fadeInUp">
                     Love to collaborate and develop amazing User Interfaces and
                     Web Applications. An awesome frontend developer with a
                     demonstrated history of working on ReactJS. Pursuing a
@@ -24,4 +34,4 @@ function index() {
     );
 }
 
-export default index
+export default index;

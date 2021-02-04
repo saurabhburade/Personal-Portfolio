@@ -22,10 +22,11 @@ pre {
     padding: 0px;
     margin: 0px;
     margin-bottom: 0px;
+    scroll-behavior: smooth;
 }
 .nav-menu > li {
     font-weight: 500;
-    font-size: 0.85em;
+    font-size: 0.9em;
 }
 
 .timeline {

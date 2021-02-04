@@ -3,10 +3,21 @@ import EducationCard from "./EducationCard";
 
 function index() {
     return (
-        <>
-            <h4 className="text-center font-weight-bold" style={{background:"url(/circle.svg)",backgroundRepeat:"no-repeat",backgroundSize:"contain",backgroundPosition:"center"}}>My Education</h4>
+        <div >
+            <h4
+                id="education"
+                className="text-center font-weight-bold wow animate__animated animate__fadeInUp"
+                style={{
+                    background: "url(/circle.svg)",
+                    backgroundRepeat: "no-repeat",
+                    backgroundSize: "contain",
+                    backgroundPosition: "center",
+                }}
+            >
+                My Education
+            </h4>
 
-            <div className="w-100 d-flex justify-content-center">
+            <div className="w-100 d-flex justify-content-center wow animate__animated animate__fadeInUp">
                 <ul class="timeline">
                     <EducationCard
                         title={
@@ -35,7 +46,7 @@ function index() {
                     />
                 </ul>
             </div>
-        </>
+        </div >
     );
 }
 

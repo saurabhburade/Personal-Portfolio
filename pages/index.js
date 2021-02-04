@@ -9,21 +9,33 @@ import Education from "../components/Education";
 import Projects from "./../components/Projects";
 import Activities from "./../components/Activities";
 import Footer from "./../components/Footer";
+import { useEffect } from "react";
 export default function Home() {
+    useEffect(() => {
+        if (typeof window != undefined) {
+            const WOW = require("wowjs");
+            new WOW.WOW().init();
+        }
+    }, []);
     return (
         <div className={styles.container}>
             <Head>
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
+                <link
+                    rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+                />
             </Head>
 
             <div
-                className="d-flex flex-column"
+                className="d-flex flex-column "
                 style={{
                     height: "105vh",
                     background: "url(/pattern.svg) no-repeat ",
                     backgroundSize: "cover",
                 }}
+                id="hero"
             >
                 <Header />
                 <Hero />
@@ -50,8 +62,9 @@ export default function Home() {
                         backgroundPosition: "right top, left top",
                         margin: "5% 15%",
                     }}
+                    className="wow animate__animated animate__fadeInUp"
                 >
-                    <h5 className="m-0 p3 text-center font-weight-bold">
+                    <h5 className="m-0 p3 text-center font-weight-bold ">
                         Not Limited to above tech at all, because life is all
                         about learning new things ;)
                     </h5>
@@ -78,7 +91,6 @@ export default function Home() {
 
             <Projects />
             <Activities />
-            <Header />
             <Footer />
         </div>
     );
