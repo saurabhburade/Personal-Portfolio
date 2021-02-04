@@ -3,7 +3,7 @@ export const projectsData = [
         title: "Kanban Board",
         live: "https://kanban-boards-app.herokuapp.com/",
         code: "https://github.com/saurabhburade/kanban-board",
-        imageUrl: "project1.PNG",
+        imageUrl: "project1.png",
         technologies: [
             "Reactjs",
             "Redux",
@@ -19,14 +19,14 @@ export const projectsData = [
         title: "COVID-19 India Dashboard",
         live: "https://covid-19-india-dash.herokuapp.com/dashboard",
         code: "​https://github.com/saurabhburade/Covid-19 ",
-        imageUrl: "project2.PNG",
+        imageUrl: "project2.png",
         technologies: ["ReactJS", "Redux", "CSS"],
     },
     {
         title: "Chat-App ",
         live: "https://projects-chat-app.herokuapp.com/",
         code: "https://github.com/saurabhburade/Chat-App",
-        imageUrl: "project3.PNG",
+        imageUrl: "project3.png",
         technologies: [
             "ReactJS",
             "Redux",
@@ -41,7 +41,7 @@ export const projectsData = [
         title: "Fruits Shopping App",
         live: "https://fruits-shop-app.herokuapp.com/",
         code: "https://github.com/saurabhburade/Shoping-App",
-        imageUrl: "project4.PNG",
+        imageUrl: "project4.png",
         technologies: [
             "Reactjs",
             "Redux",

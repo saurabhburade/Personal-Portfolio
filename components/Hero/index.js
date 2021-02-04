@@ -1,11 +1,14 @@
 import React from "react";
 function index() {
     return (
+        
         <div
             className="w-100 d-flex justify-content-between align-items-center"
             style={{
                 height: "100%",
                 padding: "1.5% 15%",
+               
+                color:"white"
             }}
         >
             <div className="hero-text">
@@ -20,32 +23,17 @@ function index() {
                     Love to collaborate and create amazing User Interfaces.
                 </p>
                 <div className="d-flex mt-3">
-                    <button className="btn btn-primary mr-3 btn-sm">
+                    <button className="btn btn-light mr-3 btn-md btn-outline-primary">
                         Download Resume
                     </button>
-                    <button className="btn btn-primary btn-sm">
+                    <button className="btn btn-light btn-md btn-outline-primary">
                         {" "}
                         Go to Projects
                     </button>
                 </div>
             </div>
             <img width={350} src={"/userHeroImage.svg"} />
-            <div
-                class="LI-profile-badge"
-                data-version="v1"
-                data-size="medium"
-                data-locale="en_US"
-                data-type="vertical"
-                data-theme="dark"
-                data-vanity="saurabh-burade-8371ab182"
-            >
-                <a
-                    class="LI-simple-link"
-                    href="https://in.linkedin.com/in/saurabh-burade-8371ab182?trk=profile-badge"
-                >
-                    Saurabh Burade
-                </a>
-            </div>
+
         </div>
     );
 }

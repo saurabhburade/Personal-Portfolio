@@ -8,23 +8,22 @@ import About from "../components/About";
 import Education from "../components/Education";
 import Projects from "./../components/Projects";
 import Activities from "./../components/Activities";
+import Footer from "./../components/Footer";
 export default function Home() {
     return (
         <div className={styles.container}>
             <Head>
                 <title>Create Next App</title>
                 <link rel="icon" href="/favicon.ico" />
-                <script
-                    type="text/javascript"
-                    src="https://platform.linkedin.com/badges/js/profile.js"
-                    async
-                    defer
-                ></script>
             </Head>
 
             <div
                 className="d-flex flex-column"
-                style={{ height: "100vh", background: "#FCF1F1" }}
+                style={{
+                    height: "105vh",
+                    background: "url(/pattern.svg) no-repeat ",
+                    backgroundSize: "cover",
+                }}
             >
                 <Header />
                 <Hero />
@@ -80,6 +79,7 @@ export default function Home() {
             <Projects />
             <Activities />
             <Header />
+            <Footer />
         </div>
     );
 }

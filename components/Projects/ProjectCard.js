@@ -13,7 +13,7 @@ export default function ProjectCard({
                 <img src={"/projectImages/" + imageUrl} alt={title || "..."} />
                 <div
                     className="pr-4 pl-4 pt-2 pb-3  d-flex flex-column justify-content-between"
-                    style={{ borderTop: "2px solid gainsboro" }}
+                    style={{ borderTop: "2px solid gainsboro",flexGrow:1 }}
                 >
                     <p className="m-0 font-weight-bold">{title || "..."}</p>
                     <div className="w-100 d-flex flex-row mt-1 flex-wrap">
@@ -52,6 +52,9 @@ export default function ProjectCard({
                         border: none;
                         box-shadow: 0px 5px 55px #d8d8d8;
                         overflow: hidden;
+                        display:flex;
+                        flex-direction:column;
+                        justify-content:space-between
                     }
                    
                     
