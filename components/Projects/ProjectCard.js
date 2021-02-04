@@ -10,7 +10,7 @@ export default function ProjectCard({
     return (
         <>
             <div className="mr-3 project-card mb-5 wow animate__animated animate__fadeInUp">
-                <img src={"/projectImages/" + imageUrl} alt={title || "..."} />
+                <img src={"/projectImages/" + imageUrl} alt={title || "project image"} />
                 <div
                     className="pr-4 pl-4 pt-2 pb-3  d-flex flex-column justify-content-between"
                     style={{ borderTop: "2px solid gainsboro", flexGrow: 1 }}

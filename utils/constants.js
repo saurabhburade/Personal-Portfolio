@@ -41,7 +41,7 @@ export const projectsData = [
         title: "Fruits Shopping App",
         live: "https://fruits-shop-app.herokuapp.com/",
         code: "https://github.com/saurabhburade/Shoping-App",
-        imageUrl: "project4a.png",
+        imageUrl:"project4b.png",
         technologies: [
             "Reactjs",
             "Redux",

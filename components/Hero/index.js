@@ -59,6 +59,7 @@ function index() {
                 width={350}
                 className="wow animate__animated animate__fadeInRight"
                 src={"/userHeroImage.svg"}
+                alt="saurabh burade"
             />
         </div>
     );

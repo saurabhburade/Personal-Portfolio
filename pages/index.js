@@ -18,14 +18,35 @@ export default function Home() {
         }
     }, []);
     return (
-        <div className={styles.container}>
+        <main className={styles.container}>
             <Head>
-                <title>Create Next App</title>
+                <title> Saurabh Burade </title>
+                <meta
+                    name="description"
+                    content=" Love to collaborate and develop amazing User Interfaces and
+                    Web Applications. An awesome frontend developer with a
+                    demonstrated history of working on ReactJS. Pursuing a
+                    Bachelor of Engineering degree in Information Technology.
+                    Developed some cool applications on MERN Stack and fond of
+                    creating RESTful APIs in ExpressJS. Other than technical
+                    things, I love to play Cricket, Chess, and Travel (Before
+                    someone ate the Bat)."
+                />
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1"
+                />
                 <link rel="icon" href="/favicon.ico" />
                 <link
                     rel="stylesheet"
                     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
                 />
+                <meta name="robots" content="index, follow" />
+                <meta name="keywords" content="saurabh, saurabh burade, web,
+                web developer, frontend, fullstack, mongodb, react.js, redux,
+                next.js, express.js, node.js, ant design, fruits shop, github, covid-19 dashboard, kanban, scrum,chat app,firebase,mongoose
+                " />
+
             </Head>
 
             <div
@@ -42,6 +63,7 @@ export default function Home() {
                 <img
                     style={{ width: "100%", transform: "rotate(180deg)" }}
                     src="/wave.svg"
+                    alt="wave"
                 />
             </div>
             <div
@@ -92,6 +114,6 @@ export default function Home() {
             <Projects />
             <Activities />
             <Footer />
-        </div>
+        </main>
     );
 }
